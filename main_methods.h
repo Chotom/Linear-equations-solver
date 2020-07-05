@@ -23,7 +23,7 @@ void time_method_measure(F func, Arg1 arg1, Arg2 arg2) {
     std::cout << "Time measure in milliseconds: " << delta_time << " ms" << std::endl;
 }
 
-void print_methods_values(char *name, std::vector<double> &result, std::vector<double> &residuum, int iter,
+void print_methods_values(std::string name, std::vector<double> &result, std::vector<double> &residuum, int iter,
                           bool print_vectors) {
     // print method
     std::cout << std::endl;
